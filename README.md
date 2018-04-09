@@ -5,13 +5,13 @@ scrollindicator.js is a jQuery plugin that adds a bar on your page, which indica
 <br>
 <hr>
 <br>
-###Depedencies
+##Depedencies
 This is a jQuery plugin, so jQuery must be imported to your project prior scrollindicator.js script.
 
 <br>
 <hr>
 <br>
-###Installation
+##Installation
 <br>
 #####Normal installation
 Just copy the js/scrollindicator.js file into your project. Don't forget to also include dependecy files into your project.
@@ -29,7 +29,7 @@ bower install scrollindicator
 <br>
 <hr>
 <br>
-###Initialization
+##Initialization
 <br>
 To initialize the plugin add the following JavaScript code into your project:
 ```
@@ -62,19 +62,19 @@ $('body').scrollindicator({
 <br>
 <hr>
 <br>
-###Manual
+##Manual
 Plugin options are:
 <br>
 <br>
-#####backgroundColor
+###backgroundColor
 Behind the bar color. If omitted the default is transparent.
 <br>
 <br>
-#####color
+###color
 Bar's color.
 <br>
 <br>
-#####gradientFinish
+###gradientFinish
 If set, the bar has a gradient color and color option is used for gradientStart.
 If both color and gradientFinish options are omitted, bar has a gradient blue color.
 <br>
